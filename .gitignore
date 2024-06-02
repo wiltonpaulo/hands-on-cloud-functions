@@ -1,0 +1,77 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore settings files
+*.env
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# Ignore setuptools distribution folder
+pip-wheel-metadata/
+*.dist-info/
+
+# Ignore PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Ignore pyenv
+.python-version
+
+# Ignore celery beat schedule file
+celerybeat-schedule
+
+# Ignore SageMath parsed files
+*.sage.py
+
+# Ignore mypy
+.mypy_cache/
+
+# Ignore AWS Lambda build files
+.lambda-build/
+response.json
+
+# Ignore zip files
+*.zip
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore PyCharm settings
+.idea/
+
